@@ -1,0 +1,37 @@
+.zagolovok
+{	
+margin-top: 2%;
+margin-bottom:3%;
+}
+h5 {
+margin-left: 2%;
+font-variant:small-caps;
+text-transform:uppercase;
+color:#FF0000;
+text-shadow: 1px 1px 2px black, 0 0 1em #FFD700;
+}
+#content{
+margin: 0 auto;
+display: table;
+border-spacing: 15px;
+border: solid 3px red;
+width: 50%;
+}
+ 
+#content div {
+display: table-row;
+border: solid 1px green;
+}
+ 
+#content div div {
+display: table-cell;
+border: solid 1px navy;
+}
+.raz {
+  all: unset;
+  -moz-appearance: textfield;
+  width: 3em;
+text-align: center;}
+.raz::-webkit-inner-spin-button { 
+  display: none;
+}
